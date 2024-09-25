@@ -1,9 +1,8 @@
 import "./globals.css";
-import Script from "next/script";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
-import { SITENAME } from "@/lib/constants";
 import { ThemeProvider } from "@/components/theme-provider";
+import { SITENAME } from "@/lib/constants";
 
 const font = Nunito({ subsets: ["latin"] });
 
@@ -45,7 +44,7 @@ export default function RootLayout({
             "name":"admin",
             "url":"https://bokepjav.pages.dev"
             },
-            "foundingDate":"2024-04-09"
+            "foundingDate":"2024-09-16"
         }
         const jsonLd1 = {
             "@context": "https://schema.org",
@@ -93,7 +92,6 @@ export default function RootLayout({
                     {children}
                 </ThemeProvider>
             </body>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
